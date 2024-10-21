@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="cook/cookbook/src/main/java"/>
+	<classpathentry kind="src" path="cook/cookbook/src/test/java"/>
+	<classpathentry kind="src" path="ejercicio1/src/main/java"/>
+	<classpathentry kind="src" path="ejercicio1/src/test/java"/>
+	<classpathentry kind="src" path="ejercicio1Wallpost/src/main/java"/>
+	<classpathentry kind="src" path="ejercicio1Wallpost/src/test/java"/>
+	<classpathentry kind="src" path="Ejercicio2Balanza/ejercicio2/src/main/java"/>
+	<classpathentry kind="src" path="Ejercicio2Balanza/ejercicio2/src/test/java"/>
+	<classpathentry kind="src" path="ejercicio3/src/main/java"/>
+	<classpathentry kind="src" path="ejercicio3/src/test/java"/>
+	<classpathentry kind="src" path="ejercicio3bis/ejercicio3bis/src/main/java"/>
+	<classpathentry kind="src" path="ejercicio3bis/ejercicio3bis/src/test/java"/>
+	<classpathentry kind="src" path="ejercicio4/ejercicio4/src/main/java"/>
+	<classpathentry kind="src" path="ejercicio4/ejercicio4/src/test/java"/>
+	<classpathentry kind="src" path="Nueva carpeta/ejercicio5"/>
+	<classpathentry kind="src" path="Nueva carpeta/ejercicio6"/>
+	<classpathentry kind="src" path="Nueva carpeta/ejercicio7"/>
+	<classpathentry kind="output" path="Ejercicio2Balanza/ejercicio2/target/classes"/>
+</classpath>
