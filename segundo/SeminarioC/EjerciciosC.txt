@@ -1,0 +1,79 @@
+1. Escriba una función que reciba un número y retorne, si es posible, el carácter correspondiente al código ASCII determinado por dicho número.
+2. Escriba una función que reciba dos enteros sin signo y retorne la división entre el mayor de ellos y el menor.
+3. Escriba una función que realice la suma de los primeros n números naturales pares. El número n se recibe como parámetro.
+	(a) Escriba un programa que imprima la suma de los primeros 250 números pares. (invoque a la función anterior)
+4. Escriba una función que dado un carácter devuelva si es un dígito o no.
+5. Escriba una función que dado un carácter devuelva si es mayúscula o minúscula.
+6. Escriba una función que dado un carácter retorne su mayúscula, si está en minúscula y el mismo carácter en caso contrario.
+7. Escriba una función que reciba dos enteros sin signo y devuelva el promedio
+8. Escriba una función que reciba un entero y devuelva su factorial.
+9. Escriba una función que reciba dos enteros y devuelva el menor de ellos. Realizarlo utilizando una sola sentencia dentro de la función.
+10. Escriba un programa que verique que la expresión getchar() != EOF sea 1 o 0.
+11. Escriba un programa que lea caracteres del teclado empleando getchar() y los cuente hasta encontrar EOF. Luego debe imprimir la cantidad de caracteres y líneas encontradas.
+12. Escriba un programa que copie caracteres del teclado en la pantalla reemplazando cada ocurrencia de uno o más espacios por sólo uno. Emplee getchar().
+13. Escriba un programa que copie caracteres del teclado en la pantalla remplazando cada ocurrencia de barra invertida por \\, cada tabulación por \t, cada enter por \n. Emplee getchar().
+14. Modique del siguiente código, el string de formato a la función printf(DEF) a n de lograr una impresión similar a la mostrada.
+15. Defina dos macros: min, para calcular el mínimo entre dos números, y max, para calcular el máximo.
+	(a) Analice los efectos laterales de invocar la macro min(i++, j++) o max(i++, j++)
+16. Dada la siguiente macro:
+	#define cuadrado(x) x*x
+	(a) Analice los efectos laterales de invocar la macro cuadrado(x + 1)
+17. Realizar un programa que dado un arreglo de enteros lo muestre ordenado de menor a mayor.
+18. Realizar una función que reciba dos arreglos de enteros y almacene en un tercer arreglo la suma de sus elementos.
+19. Realizar una función que dado un string, lo imprima en orden inverso. Haga dos implementaciones de la función: iterativa y recursiva.
+20. Realizar una función que dado un string, devuelva la cantidad de palabras que contiene.
+21. Implemente la siguiente funcion:
+	/*
+	* Retorna si la palabra recibida es capicua.
+	*/
+	int es_palindromo(const char *word)
+22. Escriba un programa que reciba parámetros desde su ejecución e imprima todos los parámetros recibidos en pantalla.
+23. Escriba un programa que reciba una clave de acceso a través de argumentos al main. Si la palabra clave es correcta el programa deberá imprimir un texto secreto, si la palabra clave no es correcta deberá imprimir la cantidad de parámetros recibidos.
+Por ejemplo:
+	$ ./programa.exe abracadabra	
+	C is quirky, flawed, and an enormous success. - Dennis Ritchie
+	$ ./programa.exe algo
+	1 argumento/s
+	$ ./programa.exe otra cosa
+	2 argumento/s
+24. Implemente un programa que reciba como argumentos un número decimal y una base numérica e imprima en pantalla el número convertido a la base pedida.
+	Por ejemplo:
+	$ ./convertir 20050 2
+	100111001010010
+	$ ./convertir 20050 16
+	4e52
+25. Escribir un programa que reciba como argumentos:
+	-s: suma los siguientes 2 parámetros.
+	-r: resta los siguientes 2 parámetros.
+	-d: divide los siguientes 2 parámetros.
+	-m: multiplica los siguientes 2 parámetros.
+	-i: imprime todos los parámetros recibidos.
+	-h: imprime un texto de ayuda.
+	El programa realiza una operación entre los parámetros ingresados, por ejemplo, si se ingresa -r 20 5, el programa realizará la resta entre ambos parámetros, y lo informará de la siguiente manera:
+	El resultado de la resta es 15.
+	Si se ingresa -r 20 5 -i, el programa imprimira los parámetros y el resultado de la siguiente manera:
+	Los parámetros ingresados son "-r" "20" y "5"
+	El resultado de la resta es 15.
+	Si se ingresa el parámetro -h, SOLO se imprimirá la siguiente ayuda:
+	El programa imprime el resultado de enviar una operación y sus correspondientes parámetros. El resultado será impreso en pantalla.
+	Argumentos:
+	-s: suma los siguientes 2 parámetros.
+	-r: resta los siguientes 2 parámetros.
+	-d: divide los siguientes 2 parámetros.
+	-m: multiplica los siguientes 2 parámetros.
+	-i: imprime todos los parámetros recibidos.
+	-h: imprime un texto de ayuda.
+26. Cree una función con la siguiente rma int *crear_vector_int(int n) que aloque de forma dinámica un arreglo de tamaño n y lo retorne. Cree además una función que permita liberar la memoria reservada.
+27. Escriba una función que reciba una variable de tipo entero por referencia y la inicialice en cero.
+28. Defina una estructura que represente una fecha.
+	(a) Es posible hacer la asignación de dos variables del tipo definido por esta estructura.
+	¿Es correcto hacerlo?
+	(b) Implemente una función que reciba una variable del tipo creado por referencia e inicialice los valores en el 1 de enero de 1970.
+29. Defina una estructura que represente un alumno con los datos: nombre, apellido, fecha de nacimiento, legajo, tipo de documento, número de documento.
+(a) Utilice en primer instancia arreglos de tamaño fijo para todos los strings.
+	1. Inicialice una variable de tipo alumno con datos coherentes.
+	2. Asigne el valor de la variable incializada en otra variable.
+	3. Imprima ambas variables con todos sus campos.
+	4. Cambie el campo nombre de la variable original. Use la función strcpy para setear un nuevo nombre.
+	5. Imprima ambas variables con todos sus campos.
+(b) Repita los pasos del punto anterior usando punteros a char en vez de arreglos de tamaño fijo para todos los strings. Considere que deberá alocar memoria para los campos de tipo puntero.
